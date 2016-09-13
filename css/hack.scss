@@ -1,0 +1,55 @@
+body[froninit='hack'] {
+  width:100%;
+   & .full-width {
+     width:100%;
+   }
+   & .container {
+     width:80%;
+     margin:auto;
+   }
+   & ul {
+     &.li-center {
+       display:flex;
+       justify-content: center;
+
+     }
+     &.li-around {
+       display:flex;
+       justify-content: space-around;
+     }
+     list-style : none;
+     & li {
+       display :inline;
+     }
+   }
+   //grid-system
+   $class :col !default;
+   $width :100/12;
+   @for $i from 1 through 12 {
+     & .#{$class}.s#{$i} {
+       width: #{$width * $i}#{'%'};
+       float:left;
+     }
+   }
+   & .left {
+     float:left;
+   }
+   & .right {
+     float:right !important;
+   }
+   & .row {
+     width:100%;
+     float :left;
+   }
+   & .row-autopd {
+     @extend .row;
+     padding-top:6vh;
+   }
+   & img.responsive,& button.responsive {
+     width:100%;
+     height:100%;
+   }
+   & .text-center {
+     text-align: center;
+   }
+}

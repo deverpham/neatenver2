@@ -1,0 +1,116 @@
+body[froninit='hack'] {
+  width: 100%;
+}
+
+body[froninit='hack'] .full-width {
+  width: 100%;
+}
+
+body[froninit='hack'] .container {
+  width: 80%;
+  margin: auto;
+}
+
+body[froninit='hack'] ul {
+  list-style: none;
+}
+
+body[froninit='hack'] ul.li-center {
+  display: flex;
+  justify-content: center;
+}
+
+body[froninit='hack'] ul.li-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+body[froninit='hack'] ul li {
+  display: inline;
+}
+
+body[froninit='hack'] .col.s1 {
+  width: 8.33333%;
+  float: left;
+}
+
+body[froninit='hack'] .col.s2 {
+  width: 16.66667%;
+  float: left;
+}
+
+body[froninit='hack'] .col.s3 {
+  width: 25%;
+  float: left;
+}
+
+body[froninit='hack'] .col.s4 {
+  width: 33.33333%;
+  float: left;
+}
+
+body[froninit='hack'] .col.s5 {
+  width: 41.66667%;
+  float: left;
+}
+
+body[froninit='hack'] .col.s6 {
+  width: 50%;
+  float: left;
+}
+
+body[froninit='hack'] .col.s7 {
+  width: 58.33333%;
+  float: left;
+}
+
+body[froninit='hack'] .col.s8 {
+  width: 66.66667%;
+  float: left;
+}
+
+body[froninit='hack'] .col.s9 {
+  width: 75%;
+  float: left;
+}
+
+body[froninit='hack'] .col.s10 {
+  width: 83.33333%;
+  float: left;
+}
+
+body[froninit='hack'] .col.s11 {
+  width: 91.66667%;
+  float: left;
+}
+
+body[froninit='hack'] .col.s12 {
+  width: 100%;
+  float: left;
+}
+
+body[froninit='hack'] .left {
+  float: left;
+}
+
+body[froninit='hack'] .right {
+  float: right !important;
+}
+
+body[froninit='hack'] .row, body[froninit='hack'] .row-autopd {
+  width: 100%;
+  float: left;
+}
+
+body[froninit='hack'] .row-autopd {
+  padding-top: 6vh;
+}
+
+body[froninit='hack'] img.responsive, body[froninit='hack'] button.responsive {
+  width: 100%;
+  height: 100%;
+}
+
+body[froninit='hack'] .text-center {
+  text-align: center;
+}
