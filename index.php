@@ -55,8 +55,31 @@
       </div>
     </div>
     <div class="full-width how-it-work">
-      <h1>How It works?</h1>
-      <div class="list-work"></div>
+      <h1 class="text-center">How It works?</h1>
+      <div class="list-work text-center">
+        <div id="first-work" class="col s4"><img src="images/work_1.png">
+          <p>Select the date and time you’d like your cleaner to show up.</p>
+        </div>
+        <div id="second-work" class="col s4"><img src="images/work_2.png">
+          <p>Your appointment will confirmed & take care of payment electronically and securely.</p>
+        </div>
+        <div class="col s4"><img src="images/work_3.png">
+          <p>Fully professional & friendly cleaner will arrive at your home ready to get the job done right.</p>
+        </div>
+        <button>LEARN MORE</button>
+      </div>
+    </div>
+    <div class="full-width features">
+      <div class="title-features">
+        <div class="title-text">
+          <h1>FEATURES</h1>
+        </div>
+        <h3> gg</h3>
+      </div>
+      <div class="col s4 features-contain"></div>
+      <div class="col s4 features-contain"></div>
+      <div class="col s4 features-contain"></div>
+      <div class="col s4 features-contain"></div>
     </div>
   </body>
 </html>
